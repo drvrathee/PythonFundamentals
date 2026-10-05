@@ -17,6 +17,9 @@ name = input("What is your name? ").strip().title()
 
 # makes First letter of string capital
 #name = name.capitalize()
+# name.upper() for all caps 
+
+
 
 #Replace all spaces in the string with underscores. or replace some alphabet or phrase with something
 #name = name.replace(" ", "_")
@@ -26,6 +29,21 @@ name = input("What is your name? ").strip().title()
 # we could lso add all strip and title finction in the input line
 
 
-
+Dhruv
 print(f"Hello, {name}!")
 
+
+
+# string methods 
+
+#.strip()
+#.join()
+
+
+
+raw = " chikEn tikKa Masala"
+
+query = raw.strip().lower().capitalize()
+
+print (query)
+ 
